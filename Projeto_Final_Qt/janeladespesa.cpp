@@ -44,6 +44,7 @@ void JanelaDespesa::on_btn_adicionar_clicked()
     for(int i=0;i<_usuario->get_contas().size();i++){
         if(_usuario->get_contas()[i].get_nome()==conta.toStdString()){
             _usuario->get_contas()[i].set_saldo((-1)*valor.toInt());
+            _usuario->get_contas()[i].set_saldo(despesa.realizar_transacao()); //opcao alternativa
             //_usuario->get_contas()[i].transacoes.push_back(transacao);
             _usuario->get_contas()[i].transacoes.push_back(despesa);
             if(Funcionalidade::algumaStringVazia(informacoes, 5)){
