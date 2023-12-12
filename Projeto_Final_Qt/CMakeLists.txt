@@ -28,7 +28,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         cadastro.h cadastro.cpp cadastro.ui
         usuario_dados.h usuario_dados.cpp
-        feitos/Categoria.cpp feitos/Categoria.h feitos/Conta.cpp feitos/Conta.h feitos/Despesa.cpp feitos/Despesa.h   feitos/Funcionalidade.cpp feitos/Funcionalidade.h   feitos/Objetivo.cpp feitos/Objetivo.h feitos/Receita.cpp feitos/Receita.h feitos/Sistema.cpp feitos/Sistema.h feitos/Transacao.cpp feitos/Transacao.h   feitos/Usuario.cpp feitos/Usuario.h
+        feitos/Categoria.cpp feitos/Categoria.h feitos/Conta.cpp feitos/Conta.h feitos/Despesa.cpp feitos/Despesa.h   feitos/Funcionalidade.cpp feitos/Funcionalidade.h   feitos/ObjetivoReceita.cpp feitos/ObjetivoReceita.h feitos/Receita.cpp feitos/Receita.h feitos/Sistema.cpp feitos/Sistema.h feitos/Transacao.cpp feitos/Transacao.h   feitos/Usuario.cpp feitos/Usuario.h
         usuariowindow.h usuariowindow.cpp usuariowindow.ui
         janelaconta.h janelaconta.cpp janelaconta.ui
         contacadastro.h contacadastro.cpp contacadastro.ui
@@ -36,6 +36,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         janeladespesa.h janeladespesa.cpp janeladespesa.ui
         janelaobjetivo.h janelaobjetivo.cpp janelaobjetivo.ui
         feitos/Cartao.cpp feitos/Cartao.h feitos/Categoria.cpp feitos/Categoria.h feitos/Emprestimo.cpp feitos/Emprestimo.h feitos/Investimento.cpp feitos/Investimento.h feitos/Transferencia.cpp feitos/Transferencia.h
+        feitos/objetivoif.h feitos/objetivoif.cpp
+        feitos/objetivodespesa.h feitos/objetivodespesa.cpp
 
 
     )

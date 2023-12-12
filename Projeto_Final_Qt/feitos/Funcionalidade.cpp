@@ -90,3 +90,13 @@ std::string Funcionalidade::adicionar_mes(const std::string &data) {
 
     return novaData.str();
 }
+
+//True se alguma string passada for vazia
+bool Funcionalidade::algumaStringVazia(const std::string strings[], size_t tamanho) {
+    for (size_t i = 0; i < tamanho; ++i) {
+        if (strings[i].empty()) {
+            return true;  // Retorna true se encontrar uma string vazia
+        }
+    }
+    return false;  // Retorna false se nenhuma string vazia for encontrada
+}

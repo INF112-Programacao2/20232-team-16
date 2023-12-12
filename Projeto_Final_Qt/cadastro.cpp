@@ -1,6 +1,8 @@
 #include "cadastro.h"
 #include "ui_cadastro.h"
 #include <qdebug>
+#include "feitos/Funcionalidade.h"
+#include <exception>
 
 Cadastro::Cadastro(QWidget *parent)
     : QDialog(parent)
@@ -15,6 +17,12 @@ Cadastro::~Cadastro()
 }
 
 Usuario_dados* Cadastro::novo_usuario(){
+    std::string informacoes[7] = {_usuario->_username.toStdString(), _usuario->_telefone.toStdString(),
+            _usuario->_senha.toStdString(), _usuario->_pix.toStdString(),
+                                  _usuario->_nome.toStdString(), _usuario->_cpf.toStdString(), _usuario->_email.toStdString()};
+    if(Funcionalidade::algumaStringVazia(informacoes,7)){
+        throw std::invalid_argument("String vazia");
+    }
     return _usuario;
 }
 

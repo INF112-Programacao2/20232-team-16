@@ -6,7 +6,7 @@
 //--------------------
 #include "feitos/Categoria.h"
 #include "feitos/Funcionalidade.h"
-#include "feitos/Objetivo.h"
+#include "feitos/ObjetivoReceita.h"
 #include "feitos/Cartao.h"
 #include "feitos/Emprestimo.h"
 #include "feitos/Investimento.h"

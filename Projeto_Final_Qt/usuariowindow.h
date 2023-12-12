@@ -6,7 +6,7 @@
 //--------------------
 #include "feitos/Categoria.h"
 #include "feitos/Funcionalidade.h"
-#include "feitos/Objetivo.h"
+#include "feitos/ObjetivoReceita.h"
 #include "feitos/Cartao.h"
 #include "feitos/Emprestimo.h"
 #include "feitos/Investimento.h"
@@ -69,6 +69,12 @@ private slots:
     void on_comboBox_objetivo_currentTextChanged(const QString &arg1);
 
     void on_btn_alterar_clicked();
+
+    void on_btn_alterar_3_clicked();
+
+    void on_btn_alterar_4_clicked();
+
+    void on_actionExcluir_objetivo_despesa_triggered();
 
 private:
     Ui::UsuarioWindow *ui;

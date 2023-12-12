@@ -94,6 +94,9 @@
       <height>121</height>
      </rect>
     </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
     <property name="selectionMode">
      <enum>QAbstractItemView::SingleSelection</enum>
     </property>
@@ -127,6 +130,15 @@
       <width>621</width>
       <height>171</height>
      </rect>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
     </property>
     <column>
      <property name="text">
@@ -172,11 +184,11 @@
      <string>Sair</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>90</y>
+      <y>120</y>
       <width>281</width>
       <height>61</height>
      </rect>
@@ -224,7 +236,67 @@
        <item>
         <widget class="QProgressBar" name="progressBar_objetivo">
          <property name="value">
-          <number>24</number>
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>50</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QPushButton" name="btn_alterar_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Alterar</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Objetivo:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Progresso:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QProgressBar" name="progressBar_objetivo_4">
+         <property name="value">
+          <number>0</number>
          </property>
         </widget>
        </item>
@@ -278,6 +350,7 @@
     </property>
     <addaction name="actionDefinir_objetivo"/>
     <addaction name="actionExcluir_objetivo"/>
+    <addaction name="actionExcluir_objetivo_despesa"/>
    </widget>
    <widget class="QMenu" name="menuNotifica_es">
     <property name="enabled">
@@ -344,12 +417,17 @@
   </action>
   <action name="actionExcluir_objetivo">
    <property name="text">
-    <string>Excluir objetivo</string>
+    <string>Excluir objetivo receita</string>
    </property>
   </action>
   <action name="actionVisualizar_notifica_es">
    <property name="text">
     <string>Visualizar notificações</string>
+   </property>
+  </action>
+  <action name="actionExcluir_objetivo_despesa">
+   <property name="text">
+    <string>Excluir objetivo despesa</string>
    </property>
   </action>
  </widget>

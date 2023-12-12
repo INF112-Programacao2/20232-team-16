@@ -40,6 +40,7 @@ public:
     QAction *actionDefinir_objetivo;
     QAction *actionExcluir_objetivo;
     QAction *actionVisualizar_notifica_es;
+    QAction *actionExcluir_objetivo_despesa;
     QWidget *centralwidget;
     QLabel *label_saldo_total;
     QPushButton *btn_nova_despesa;
@@ -49,7 +50,7 @@ public:
     QTableWidget *tabela_banco;
     QTableWidget *tabela_transacao;
     QPushButton *btn_sair;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QHBoxLayout *horizontalLayout;
     QPushButton *btn_alterar;
@@ -57,6 +58,14 @@ public:
     QHBoxLayout *horizontalLayout_2;
     QLabel *label;
     QProgressBar *progressBar_objetivo;
+    QWidget *layoutWidget_2;
+    QVBoxLayout *verticalLayout_4;
+    QHBoxLayout *horizontalLayout_7;
+    QPushButton *btn_alterar_4;
+    QLabel *label_7;
+    QHBoxLayout *horizontalLayout_8;
+    QLabel *label_8;
+    QProgressBar *progressBar_objetivo_4;
     QMenuBar *menubar;
     QMenu *menuUsu_rio;
     QMenu *menuConta;
@@ -94,6 +103,8 @@ public:
         actionExcluir_objetivo->setObjectName("actionExcluir_objetivo");
         actionVisualizar_notifica_es = new QAction(UsuarioWindow);
         actionVisualizar_notifica_es->setObjectName("actionVisualizar_notifica_es");
+        actionExcluir_objetivo_despesa = new QAction(UsuarioWindow);
+        actionExcluir_objetivo_despesa->setObjectName("actionExcluir_objetivo_despesa");
         centralwidget = new QWidget(UsuarioWindow);
         centralwidget->setObjectName("centralwidget");
         label_saldo_total = new QLabel(centralwidget);
@@ -123,6 +134,7 @@ public:
         tabela_banco->setObjectName("tabela_banco");
         tabela_banco->setEnabled(true);
         tabela_banco->setGeometry(QRect(10, 60, 317, 121));
+        tabela_banco->setEditTriggers(QAbstractItemView::NoEditTriggers);
         tabela_banco->setSelectionMode(QAbstractItemView::SingleSelection);
         tabela_banco->setSelectionBehavior(QAbstractItemView::SelectRows);
         tabela_banco->setShowGrid(true);
@@ -143,18 +155,21 @@ public:
         tabela_transacao->setHorizontalHeaderItem(5, __qtablewidgetitem8);
         tabela_transacao->setObjectName("tabela_transacao");
         tabela_transacao->setGeometry(QRect(10, 190, 621, 171));
+        tabela_transacao->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        tabela_transacao->setSelectionMode(QAbstractItemView::SingleSelection);
+        tabela_transacao->setSelectionBehavior(QAbstractItemView::SelectRows);
         btn_sair = new QPushButton(centralwidget);
         btn_sair->setObjectName("btn_sair");
         btn_sair->setGeometry(QRect(540, 10, 80, 24));
-        widget = new QWidget(centralwidget);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(340, 90, 281, 61));
-        verticalLayout = new QVBoxLayout(widget);
+        layoutWidget = new QWidget(centralwidget);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(340, 120, 281, 61));
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName("horizontalLayout");
-        btn_alterar = new QPushButton(widget);
+        btn_alterar = new QPushButton(layoutWidget);
         btn_alterar->setObjectName("btn_alterar");
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
@@ -164,7 +179,7 @@ public:
 
         horizontalLayout->addWidget(btn_alterar);
 
-        label_2 = new QLabel(widget);
+        label_2 = new QLabel(layoutWidget);
         label_2->setObjectName("label_2");
         QSizePolicy sizePolicy1(QSizePolicy::Preferred, QSizePolicy::Fixed);
         sizePolicy1.setHorizontalStretch(0);
@@ -179,19 +194,60 @@ public:
 
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName("horizontalLayout_2");
-        label = new QLabel(widget);
+        label = new QLabel(layoutWidget);
         label->setObjectName("label");
 
         horizontalLayout_2->addWidget(label);
 
-        progressBar_objetivo = new QProgressBar(widget);
+        progressBar_objetivo = new QProgressBar(layoutWidget);
         progressBar_objetivo->setObjectName("progressBar_objetivo");
-        progressBar_objetivo->setValue(24);
+        progressBar_objetivo->setValue(0);
 
         horizontalLayout_2->addWidget(progressBar_objetivo);
 
 
         verticalLayout->addLayout(horizontalLayout_2);
+
+        layoutWidget_2 = new QWidget(centralwidget);
+        layoutWidget_2->setObjectName("layoutWidget_2");
+        layoutWidget_2->setGeometry(QRect(340, 50, 281, 61));
+        verticalLayout_4 = new QVBoxLayout(layoutWidget_2);
+        verticalLayout_4->setObjectName("verticalLayout_4");
+        verticalLayout_4->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_7 = new QHBoxLayout();
+        horizontalLayout_7->setObjectName("horizontalLayout_7");
+        btn_alterar_4 = new QPushButton(layoutWidget_2);
+        btn_alterar_4->setObjectName("btn_alterar_4");
+        sizePolicy.setHeightForWidth(btn_alterar_4->sizePolicy().hasHeightForWidth());
+        btn_alterar_4->setSizePolicy(sizePolicy);
+
+        horizontalLayout_7->addWidget(btn_alterar_4);
+
+        label_7 = new QLabel(layoutWidget_2);
+        label_7->setObjectName("label_7");
+        sizePolicy1.setHeightForWidth(label_7->sizePolicy().hasHeightForWidth());
+        label_7->setSizePolicy(sizePolicy1);
+
+        horizontalLayout_7->addWidget(label_7);
+
+
+        verticalLayout_4->addLayout(horizontalLayout_7);
+
+        horizontalLayout_8 = new QHBoxLayout();
+        horizontalLayout_8->setObjectName("horizontalLayout_8");
+        label_8 = new QLabel(layoutWidget_2);
+        label_8->setObjectName("label_8");
+
+        horizontalLayout_8->addWidget(label_8);
+
+        progressBar_objetivo_4 = new QProgressBar(layoutWidget_2);
+        progressBar_objetivo_4->setObjectName("progressBar_objetivo_4");
+        progressBar_objetivo_4->setValue(0);
+
+        horizontalLayout_8->addWidget(progressBar_objetivo_4);
+
+
+        verticalLayout_4->addLayout(horizontalLayout_8);
 
         UsuarioWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(UsuarioWindow);
@@ -231,6 +287,7 @@ public:
         menuCategorias->addAction(actionExcluir_categoria);
         menuObjetivos->addAction(actionDefinir_objetivo);
         menuObjetivos->addAction(actionExcluir_objetivo);
+        menuObjetivos->addAction(actionExcluir_objetivo_despesa);
         menuNotifica_es->addAction(actionVisualizar_notifica_es);
 
         retranslateUi(UsuarioWindow);
@@ -249,8 +306,9 @@ public:
         actionCriar_categoria->setText(QCoreApplication::translate("UsuarioWindow", "Criar categoria", nullptr));
         actionExcluir_categoria->setText(QCoreApplication::translate("UsuarioWindow", "Excluir categoria", nullptr));
         actionDefinir_objetivo->setText(QCoreApplication::translate("UsuarioWindow", "Definir objetivo", nullptr));
-        actionExcluir_objetivo->setText(QCoreApplication::translate("UsuarioWindow", "Excluir objetivo", nullptr));
+        actionExcluir_objetivo->setText(QCoreApplication::translate("UsuarioWindow", "Excluir objetivo receita", nullptr));
         actionVisualizar_notifica_es->setText(QCoreApplication::translate("UsuarioWindow", "Visualizar notifica\303\247\303\265es", nullptr));
+        actionExcluir_objetivo_despesa->setText(QCoreApplication::translate("UsuarioWindow", "Excluir objetivo despesa", nullptr));
         label_saldo_total->setText(QCoreApplication::translate("UsuarioWindow", "Saldo total:", nullptr));
         btn_nova_despesa->setText(QCoreApplication::translate("UsuarioWindow", "Nova despesa", nullptr));
         btn_nova_receira->setText(QCoreApplication::translate("UsuarioWindow", "Nova receita", nullptr));
@@ -278,6 +336,9 @@ public:
         btn_alterar->setText(QCoreApplication::translate("UsuarioWindow", "Alterar", nullptr));
         label_2->setText(QCoreApplication::translate("UsuarioWindow", "Objetivo:", nullptr));
         label->setText(QCoreApplication::translate("UsuarioWindow", "Progresso:", nullptr));
+        btn_alterar_4->setText(QCoreApplication::translate("UsuarioWindow", "Alterar", nullptr));
+        label_7->setText(QCoreApplication::translate("UsuarioWindow", "Objetivo:", nullptr));
+        label_8->setText(QCoreApplication::translate("UsuarioWindow", "Progresso:", nullptr));
         menuUsu_rio->setTitle(QCoreApplication::translate("UsuarioWindow", "Usu\303\241rio", nullptr));
         menuConta->setTitle(QCoreApplication::translate("UsuarioWindow", "Conta", nullptr));
         menuConta_Compartilhada->setTitle(QCoreApplication::translate("UsuarioWindow", "Conta Compartilhada", nullptr));

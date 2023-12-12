@@ -16,6 +16,7 @@ public:
     void static muda_data(const std::string &data, int &dia, int &mes, int &ano);
     std::string static obterDataAtual();
     std::string static adicionar_mes(const std::string &data);
+    bool static algumaStringVazia(const std::string strings[], size_t tamanho);
 };
 
 #endif
