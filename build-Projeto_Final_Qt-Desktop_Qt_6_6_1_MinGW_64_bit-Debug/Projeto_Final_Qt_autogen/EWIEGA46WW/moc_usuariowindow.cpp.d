@@ -381,9 +381,11 @@ C:/Users/pedro/Desktop/build-Projeto_Final_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debu
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Emprestimo.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Funcionalidade.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.h \
-  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.h \
+  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Sistema.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transacao.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transferencia.h \
-  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h
+  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h \
+  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.h \
+  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.h

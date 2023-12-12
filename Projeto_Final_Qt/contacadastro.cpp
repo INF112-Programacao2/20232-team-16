@@ -13,6 +13,10 @@ ContaCadastro::~ContaCadastro()
     delete ui;
 }
 Conta* ContaCadastro::retorna_conta(){
+    std::string informacoes[2] = {_conta->get_banco(), _conta->get_nome()};
+    if(Funcionalidade::algumaStringVazia(informacoes,2)){
+        throw std::invalid_argument("String vazia");
+    }
     return _conta;
 }
 

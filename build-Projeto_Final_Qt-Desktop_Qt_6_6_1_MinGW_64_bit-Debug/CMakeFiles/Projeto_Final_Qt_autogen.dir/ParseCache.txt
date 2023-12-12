@@ -731,19 +731,23 @@ C:/Users/pedro/Desktop/Projeto_Final_Qt/contacadastro.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Emprestimo.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Funcionalidade.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.h
- mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Sistema.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transacao.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transferencia.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.h
  mdp:C:/Users/pedro/Desktop/build-Projeto_Final_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Projeto_Final_Qt_autogen/moc_predefs.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/usuario_dados.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Categoria.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Cartao.h
-C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Conta.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.h
+C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Conta.h
+C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Despesa.h
+C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Emprestimo.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Funcionalidade.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.h
@@ -1129,17 +1133,20 @@ C:/Users/pedro/Desktop/Projeto_Final_Qt/janeladespesa.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Emprestimo.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Funcionalidade.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.h
- mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Sistema.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transacao.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transferencia.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/janeladespesa.h
  mdp:C:/Users/pedro/Desktop/build-Projeto_Final_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Projeto_Final_Qt_autogen/moc_predefs.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Sistema.h
+C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.cpp
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transacao.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/janelaobjetivo.h
  mmc:Q_OBJECT
@@ -1523,12 +1530,14 @@ C:/Users/pedro/Desktop/Projeto_Final_Qt/janelaobjetivo.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Emprestimo.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Funcionalidade.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.h
- mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Sistema.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transacao.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transferencia.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/janelaobjetivo.h
  mdp:C:/Users/pedro/Desktop/build-Projeto_Final_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Projeto_Final_Qt_autogen/moc_predefs.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Despesa.cpp
@@ -1915,12 +1924,14 @@ C:/Users/pedro/Desktop/Projeto_Final_Qt/janelaconta.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Emprestimo.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Funcionalidade.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.h
- mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Sistema.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transacao.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transferencia.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/janelaconta.h
  mdp:C:/Users/pedro/Desktop/build-Projeto_Final_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Projeto_Final_Qt_autogen/moc_predefs.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/mainwindow.h
@@ -2654,12 +2665,14 @@ C:/Users/pedro/Desktop/Projeto_Final_Qt/receitajanela.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Emprestimo.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Funcionalidade.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.h
- mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Sistema.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transacao.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transferencia.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/receitajanela.h
  mdp:C:/Users/pedro/Desktop/build-Projeto_Final_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Projeto_Final_Qt_autogen/moc_predefs.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/usuariowindow.h
@@ -3045,15 +3058,18 @@ C:/Users/pedro/Desktop/Projeto_Final_Qt/usuariowindow.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Emprestimo.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Funcionalidade.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.h
- mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Sistema.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transacao.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transferencia.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.h
+ mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.h
  mdp:C:/Users/pedro/Desktop/Projeto_Final_Qt/usuariowindow.h
  mdp:C:/Users/pedro/Desktop/build-Projeto_Final_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Projeto_Final_Qt_autogen/moc_predefs.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Cartao.cpp
+C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/cadastro.cpp
  uic:ui_cadastro.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/contacadastro.cpp
@@ -3062,6 +3078,7 @@ C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Categoria.cpp
 C:/Users/pedro/Desktop/Projeto_Final_Qt/usuario_dados.cpp
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Conta.cpp
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.cpp
+C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.cpp
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Emprestimo.cpp
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Funcionalidade.cpp
 C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.cpp
@@ -3083,3 +3100,4 @@ C:/Users/pedro/Desktop/Projeto_Final_Qt/receitajanela.cpp
  uic:ui_receitajanela.h
 C:/Users/pedro/Desktop/Projeto_Final_Qt/usuariowindow.cpp
  uic:ui_usuariowindow.h
+C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.cpp

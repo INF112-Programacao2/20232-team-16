@@ -573,8 +573,8 @@ Projeto_Final_Qt_autogen/timestamp: \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Funcionalidade.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.cpp \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Investimento.h \
-  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.cpp \
-  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.h \
+  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.cpp \
+  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.cpp \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Receita.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Sistema.cpp \
@@ -585,6 +585,10 @@ Projeto_Final_Qt_autogen/timestamp: \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Transferencia.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.cpp \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h \
+  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.cpp \
+  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.h \
+  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.cpp \
+  C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/janelaconta.cpp \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/janelaconta.h \
   C:/Users/pedro/Desktop/Projeto_Final_Qt/janelaconta.ui \

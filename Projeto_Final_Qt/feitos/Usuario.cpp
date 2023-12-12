@@ -38,9 +38,21 @@ void Usuario::criar_objetivo(std::string nome, std::string descricao, int valor_
 void Usuario::excluir_objetivo(int i){
     _objetivos.erase(_objetivos.begin()+i);
 }
+
+void Usuario::criar_objetivo_desp(std::string nome, std::string descricao, int valor_meta, std::string data_limite, std::string categoria){
+    _objetivos_desp.push_back(ObjetivoDespesa(nome, descricao, valor_meta, data_limite, categoria));
+}
+void Usuario::excluir_objetivo_desp(int i){
+    _objetivos_desp.erase(_objetivos_desp.begin()+i);
+}
+
 void Usuario::excluir_objetivo(){
     _objetivos.pop_back();
     _objetivos.shrink_to_fit();
+}
+void Usuario::excluir_objetivo_desp(){
+    _objetivos_desp.pop_back();
+    _objetivos_desp.shrink_to_fit();
 }
 int Usuario::numero_objetivos(){
     return _objetivos.size();
@@ -64,4 +76,44 @@ int Usuario::saldo_total(){
 }
 int Usuario::saldo_iesima_conta(int i){
     return _contas[i].get_saldo();
+}
+
+// Getters e Setters para os vetores privados
+std::vector<Objetivo>& Usuario::get_objetivos()  {
+    return _objetivos;
+}
+
+void Usuario::set_objetivos( std::vector<Objetivo>& objetivos) {
+    _objetivos = objetivos;
+}
+
+std::vector<std::string>& Usuario::get_categorias()  {
+    return _categorias;
+}
+
+void Usuario::set_categorias( std::vector<std::string>& categorias) {
+    _categorias = categorias;
+}
+
+std::vector<bool>& Usuario::get_categorias_tipos()  {
+    return _categorias_tipos;
+}
+
+void Usuario::set_categorias_tipos( std::vector<bool>& categorias_tipos) {
+    _categorias_tipos = categorias_tipos;
+}
+
+std::vector<Conta>& Usuario::get_contas()  {
+    return _contas;
+}
+
+void Usuario::set_contas( std::vector<Conta>& contas) {
+    _contas = contas;
+}
+std::vector<ObjetivoDespesa>& Usuario::get_objetivos_desp()  {
+    return _objetivos_desp;
+}
+
+void Usuario::set_objetivos_desp( std::vector<ObjetivoDespesa>& objetivos) {
+    _objetivos_desp = objetivos;
 }

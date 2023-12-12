@@ -121,9 +121,9 @@ build CMakeFiles/Projeto_Final_Qt.dir/feitos/Funcionalidade.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\Projeto_Final_Qt.dir
   OBJECT_FILE_DIR = CMakeFiles\Projeto_Final_Qt.dir\feitos
 
-build CMakeFiles/Projeto_Final_Qt.dir/feitos/Objetivo.cpp.obj: CXX_COMPILER__Projeto_Final_Qt_unscanned_Debug C$:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.cpp || cmake_object_order_depends_target_Projeto_Final_Qt
+build CMakeFiles/Projeto_Final_Qt.dir/feitos/ObjetivoReceita.cpp.obj: CXX_COMPILER__Projeto_Final_Qt_unscanned_Debug C$:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.cpp || cmake_object_order_depends_target_Projeto_Final_Qt
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\Projeto_Final_Qt.dir\feitos\Objetivo.cpp.obj.d
+  DEP_FILE = CMakeFiles\Projeto_Final_Qt.dir\feitos\ObjetivoReceita.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/pedro/Desktop/build-Projeto_Final_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Projeto_Final_Qt_autogen/include -isystem C:/Qt/6.6.1/mingw_64/include/QtCore -isystem C:/Qt/6.6.1/mingw_64/include -isystem C:/Qt/6.6.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.6.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.6.1/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Projeto_Final_Qt.dir
@@ -241,6 +241,22 @@ build CMakeFiles/Projeto_Final_Qt.dir/feitos/Transferencia.cpp.obj: CXX_COMPILER
   OBJECT_DIR = CMakeFiles\Projeto_Final_Qt.dir
   OBJECT_FILE_DIR = CMakeFiles\Projeto_Final_Qt.dir\feitos
 
+build CMakeFiles/Projeto_Final_Qt.dir/feitos/objetivoif.cpp.obj: CXX_COMPILER__Projeto_Final_Qt_unscanned_Debug C$:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.cpp || cmake_object_order_depends_target_Projeto_Final_Qt
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Projeto_Final_Qt.dir\feitos\objetivoif.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/pedro/Desktop/build-Projeto_Final_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Projeto_Final_Qt_autogen/include -isystem C:/Qt/6.6.1/mingw_64/include/QtCore -isystem C:/Qt/6.6.1/mingw_64/include -isystem C:/Qt/6.6.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.6.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.6.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Projeto_Final_Qt.dir
+  OBJECT_FILE_DIR = CMakeFiles\Projeto_Final_Qt.dir\feitos
+
+build CMakeFiles/Projeto_Final_Qt.dir/feitos/objetivodespesa.cpp.obj: CXX_COMPILER__Projeto_Final_Qt_unscanned_Debug C$:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.cpp || cmake_object_order_depends_target_Projeto_Final_Qt
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Projeto_Final_Qt.dir\feitos\objetivodespesa.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/pedro/Desktop/build-Projeto_Final_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Projeto_Final_Qt_autogen/include -isystem C:/Qt/6.6.1/mingw_64/include/QtCore -isystem C:/Qt/6.6.1/mingw_64/include -isystem C:/Qt/6.6.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.6.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.6.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Projeto_Final_Qt.dir
+  OBJECT_FILE_DIR = CMakeFiles\Projeto_Final_Qt.dir\feitos
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Projeto_Final_Qt
@@ -249,7 +265,7 @@ build CMakeFiles/Projeto_Final_Qt.dir/feitos/Transferencia.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable Projeto_Final_Qt.exe
 
-build Projeto_Final_Qt.exe: CXX_EXECUTABLE_LINKER__Projeto_Final_Qt_Debug CMakeFiles/Projeto_Final_Qt.dir/Projeto_Final_Qt_autogen/mocs_compilation.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/main.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/mainwindow.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/cadastro.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/usuario_dados.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Categoria.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Conta.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Despesa.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Funcionalidade.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Objetivo.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Receita.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Sistema.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Transacao.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Usuario.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/usuariowindow.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/janelaconta.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/contacadastro.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/receitajanela.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/janeladespesa.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/janelaobjetivo.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Cartao.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Emprestimo.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Investimento.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Transferencia.cpp.obj | C$:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.6.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.1/mingw_64/lib/libQt6EntryPoint.a || Projeto_Final_Qt_autogen Projeto_Final_Qt_autogen_timestamp_deps
+build Projeto_Final_Qt.exe: CXX_EXECUTABLE_LINKER__Projeto_Final_Qt_Debug CMakeFiles/Projeto_Final_Qt.dir/Projeto_Final_Qt_autogen/mocs_compilation.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/main.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/mainwindow.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/cadastro.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/usuario_dados.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Categoria.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Conta.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Despesa.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Funcionalidade.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/ObjetivoReceita.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Receita.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Sistema.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Transacao.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Usuario.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/usuariowindow.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/janelaconta.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/contacadastro.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/receitajanela.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/janeladespesa.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/janelaobjetivo.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Cartao.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Emprestimo.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Investimento.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/Transferencia.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/objetivoif.cpp.obj CMakeFiles/Projeto_Final_Qt.dir/feitos/objetivodespesa.cpp.obj | C$:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.6.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.1/mingw_64/lib/libQt6EntryPoint.a || Projeto_Final_Qt_autogen Projeto_Final_Qt_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.6.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.6.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.6.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -352,7 +368,7 @@ build Projeto_Final_Qt_autogen/timestamp Projeto_Final_Qt_autogen/mocs_compilati
 #############################################
 # Phony custom command for CMakeFiles\Projeto_Final_Qt_autogen_timestamp_deps
 
-build CMakeFiles/Projeto_Final_Qt_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Projeto_Final_Qt_autogen_timestamp_deps: phony C$:/Qt/6.6.1/mingw_64/./bin/uic.exe C$:/Qt/6.6.1/mingw_64/./bin/moc.exe C$:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.1/mingw_64/lib/libQt6Core.a
+build CMakeFiles/Projeto_Final_Qt_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Projeto_Final_Qt_autogen_timestamp_deps: phony C$:/Qt/6.6.1/mingw_64/./bin/moc.exe C$:/Qt/6.6.1/mingw_64/./bin/uic.exe C$:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.1/mingw_64/lib/libQt6Core.a
 
 
 #############################################

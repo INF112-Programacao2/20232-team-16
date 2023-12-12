@@ -316,9 +316,9 @@
 			null
 		],
 		[
-			"C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.h",
+			"C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.h",
 			"MU",
-			"657VVUBMCO/moc_Objetivo.cpp",
+			"657VVUBMCO/moc_ObjetivoReceita.cpp",
 			null
 		],
 		[
@@ -349,6 +349,18 @@
 			"C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.h",
 			"MU",
 			"657VVUBMCO/moc_Usuario.cpp",
+			null
+		],
+		[
+			"C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.h",
+			"MU",
+			"657VVUBMCO/moc_objetivodespesa.cpp",
+			null
+		],
+		[
+			"C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.h",
+			"MU",
+			"657VVUBMCO/moc_objetivoif.cpp",
 			null
 		],
 		[
@@ -506,7 +518,7 @@
 			null
 		],
 		[
-			"C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Objetivo.cpp",
+			"C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/ObjetivoReceita.cpp",
 			"MU",
 			null
 		],
@@ -532,6 +544,16 @@
 		],
 		[
 			"C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/Usuario.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivodespesa.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pedro/Desktop/Projeto_Final_Qt/feitos/objetivoif.cpp",
 			"MU",
 			null
 		],

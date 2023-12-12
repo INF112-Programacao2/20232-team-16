@@ -6,7 +6,7 @@
 //--------------------
 #include "feitos/Categoria.h"
 #include "feitos/Funcionalidade.h"
-#include "feitos/Objetivo.h"
+#include "feitos/ObjetivoReceita.h"
 #include "feitos/Cartao.h"
 #include "feitos/Emprestimo.h"
 #include "feitos/Investimento.h"
@@ -20,6 +20,7 @@
 //#include "Notificacao.h"
 //#include "ContaCompartilhada.h"
 //#include "Relatorio.h"
+#include "feitos/objetivodespesa.h"
 //--------------------
 
 namespace Ui {

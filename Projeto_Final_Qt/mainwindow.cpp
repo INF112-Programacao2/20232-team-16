@@ -10,7 +10,7 @@
 //--------------------
 #include "feitos/Categoria.h"
 #include "feitos/Funcionalidade.h"
-#include "feitos/Objetivo.h"
+#include "feitos/ObjetivoReceita.h"
 #include "feitos/Cartao.h"
 #include "feitos/Emprestimo.h"
 #include "feitos/Investimento.h"
@@ -47,6 +47,8 @@ void MainWindow::on_Bt_cadastro_clicked()
 {
     Cadastro janela_cadastro;
     janela_cadastro.exec();
+
+
     try{
     Usuario_dados *usuario_dados = janela_cadastro.novo_usuario();
 
@@ -61,6 +63,9 @@ void MainWindow::on_Bt_cadastro_clicked()
     Usuario usuario(username, nome, cpf, telefone, pix, email, senha);
     sistema.inserir_usuario(usuario);
     } catch(std::bad_alloc &e){
+        QMessageBox::critical(this, "ERRO", "Erro ao cadastrar usuário, tente novamente.");
+    } catch(std::invalid_argument &e){
+        QMessageBox::warning(this, "Cadastro de usuário", "Todos os campos são obrigatórios, tente novamente");
     }
 }
 
