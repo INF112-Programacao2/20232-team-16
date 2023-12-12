@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UsuarioWindow</class>
+ <widget class="QMainWindow" name="UsuarioWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Painel do usuário</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_saldo_total">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Saldo total:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_nova_despesa">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nova despesa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_nova_receira">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>380</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nova receita</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_saldo_total_numero">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_atualizar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Atualizar</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tabela_banco">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>317</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <column>
+     <property name="text">
+      <string>Nome</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Banco</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Saldo</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="tabela_transacao">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>621</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Data</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Valor</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Conta</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Categoria</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Descrição</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btn_sair">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>10</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sair</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>90</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="btn_alterar">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Alterar</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Objetivo:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Progresso:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QProgressBar" name="progressBar_objetivo">
+         <property name="value">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuUsu_rio">
+    <property name="title">
+     <string>Usuário</string>
+    </property>
+    <addaction name="actionInforma_es"/>
+   </widget>
+   <widget class="QMenu" name="menuConta">
+    <property name="title">
+     <string>Conta</string>
+    </property>
+    <addaction name="actionCriar_conta"/>
+    <addaction name="actionExcluir_conta"/>
+   </widget>
+   <widget class="QMenu" name="menuConta_Compartilhada">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Conta Compartilhada</string>
+    </property>
+    <addaction name="actionCriar_conta_compartilhada"/>
+    <addaction name="actionExcluir_conta_compartilhada"/>
+   </widget>
+   <widget class="QMenu" name="menuCategorias">
+    <property name="title">
+     <string>Categorias</string>
+    </property>
+    <addaction name="actionCriar_categoria"/>
+    <addaction name="actionExcluir_categoria"/>
+   </widget>
+   <widget class="QMenu" name="menuObjetivos">
+    <property name="title">
+     <string>Objetivos</string>
+    </property>
+    <addaction name="actionDefinir_objetivo"/>
+    <addaction name="actionExcluir_objetivo"/>
+   </widget>
+   <widget class="QMenu" name="menuNotifica_es">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Notificações</string>
+    </property>
+    <addaction name="actionVisualizar_notifica_es"/>
+   </widget>
+   <addaction name="menuUsu_rio"/>
+   <addaction name="menuConta"/>
+   <addaction name="menuConta_Compartilhada"/>
+   <addaction name="menuCategorias"/>
+   <addaction name="menuObjetivos"/>
+   <addaction name="menuNotifica_es"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionInforma_es">
+   <property name="text">
+    <string>Informações</string>
+   </property>
+  </action>
+  <action name="actionCriar_conta">
+   <property name="text">
+    <string>Criar conta</string>
+   </property>
+  </action>
+  <action name="actionExcluir_conta">
+   <property name="text">
+    <string>Excluir conta</string>
+   </property>
+  </action>
+  <action name="actionCriar_conta_compartilhada">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Criar conta compartilhada</string>
+   </property>
+  </action>
+  <action name="actionExcluir_conta_compartilhada">
+   <property name="text">
+    <string>Excluir conta compartilhada</string>
+   </property>
+  </action>
+  <action name="actionCriar_categoria">
+   <property name="text">
+    <string>Criar categoria</string>
+   </property>
+  </action>
+  <action name="actionExcluir_categoria">
+   <property name="text">
+    <string>Excluir categoria</string>
+   </property>
+  </action>
+  <action name="actionDefinir_objetivo">
+   <property name="text">
+    <string>Definir objetivo</string>
+   </property>
+  </action>
+  <action name="actionExcluir_objetivo">
+   <property name="text">
+    <string>Excluir objetivo</string>
+   </property>
+  </action>
+  <action name="actionVisualizar_notifica_es">
+   <property name="text">
+    <string>Visualizar notificações</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

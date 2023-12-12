@@ -1,0 +1,78 @@
+#ifndef USUARIOWINDOW_H
+#define USUARIOWINDOW_H
+
+#include <QMainWindow>
+
+//--------------------
+#include "feitos/Categoria.h"
+#include "feitos/Funcionalidade.h"
+#include "feitos/Objetivo.h"
+#include "feitos/Cartao.h"
+#include "feitos/Emprestimo.h"
+#include "feitos/Investimento.h"
+#include "feitos/Transacao.h"
+#include "feitos/Receita.h"
+#include "feitos/Despesa.h"
+#include "feitos/Conta.h"
+#include "feitos/Usuario.h"
+#include "feitos/Sistema.h"
+#include "feitos/Transferencia.h"
+//#include "Notificacao.h"
+//#include "ContaCompartilhada.h"
+//#include "Relatorio.h"
+//--------------------
+
+namespace Ui {
+class UsuarioWindow;
+}
+
+class UsuarioWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    explicit UsuarioWindow(QWidget *parent = nullptr);
+    ~UsuarioWindow();
+    void receber_usuario(Usuario *usuario);
+
+private slots:
+    void on_label_saldo_total_numero_linkActivated(const QString &link);
+
+    void on_btn_atualizar_clicked();
+
+    void on_actionInforma_es_triggered();
+
+    void on_actionCriar_conta_triggered();
+
+    void on_actionExcluir_conta_triggered();
+
+    void on_btn_nova_receira_clicked();
+
+    void on_actionCriar_categoria_triggered();
+
+    void on_actionExcluir_categoria_triggered();
+
+    void on_tabela_transacao_cellDoubleClicked(int row, int column);
+
+    void on_btn_nova_despesa_clicked();
+
+    void on_actionDefinir_objetivo_triggered();
+
+    void on_actionExcluir_objetivo_triggered();
+
+    void on_btn_sair_clicked();
+
+    void on_comboBox_objetivo_currentIndexChanged(int index);
+
+    void on_comboBox_objetivo_activated(int index);
+
+    void on_comboBox_objetivo_currentTextChanged(const QString &arg1);
+
+    void on_btn_alterar_clicked();
+
+private:
+    Ui::UsuarioWindow *ui;
+    Usuario *_usuario;
+};
+
+#endif // USUARIOWINDOW_H
