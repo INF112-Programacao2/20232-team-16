@@ -6,5 +6,5 @@ Despesa::Despesa(std::string categoria, std::string data, int valor, std::string
 Despesa::~Despesa(){}
 
 int Despesa::realizar_transacao(){
-    return (_valor*(-1));
+    return _valor*(-1);
 }

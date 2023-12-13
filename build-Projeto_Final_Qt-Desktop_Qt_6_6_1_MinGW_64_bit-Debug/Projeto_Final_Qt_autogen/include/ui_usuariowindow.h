@@ -66,6 +66,8 @@ public:
     QHBoxLayout *horizontalLayout_8;
     QLabel *label_8;
     QProgressBar *progressBar_objetivo_4;
+    QLabel *label_9;
+    QLabel *label_10;
     QMenuBar *menubar;
     QMenu *menuUsu_rio;
     QMenu *menuConta;
@@ -109,16 +111,16 @@ public:
         centralwidget->setObjectName("centralwidget");
         label_saldo_total = new QLabel(centralwidget);
         label_saldo_total->setObjectName("label_saldo_total");
-        label_saldo_total->setGeometry(QRect(10, 40, 101, 21));
+        label_saldo_total->setGeometry(QRect(10, 60, 101, 21));
         btn_nova_despesa = new QPushButton(centralwidget);
         btn_nova_despesa->setObjectName("btn_nova_despesa");
-        btn_nova_despesa->setGeometry(QRect(10, 380, 80, 24));
+        btn_nova_despesa->setGeometry(QRect(10, 400, 80, 24));
         btn_nova_receira = new QPushButton(centralwidget);
         btn_nova_receira->setObjectName("btn_nova_receira");
-        btn_nova_receira->setGeometry(QRect(280, 380, 80, 24));
+        btn_nova_receira->setGeometry(QRect(550, 400, 80, 24));
         label_saldo_total_numero = new QLabel(centralwidget);
         label_saldo_total_numero->setObjectName("label_saldo_total_numero");
-        label_saldo_total_numero->setGeometry(QRect(80, 40, 71, 20));
+        label_saldo_total_numero->setGeometry(QRect(110, 59, 171, 21));
         btn_atualizar = new QPushButton(centralwidget);
         btn_atualizar->setObjectName("btn_atualizar");
         btn_atualizar->setGeometry(QRect(10, 10, 80, 24));
@@ -133,7 +135,7 @@ public:
         tabela_banco->setHorizontalHeaderItem(2, __qtablewidgetitem2);
         tabela_banco->setObjectName("tabela_banco");
         tabela_banco->setEnabled(true);
-        tabela_banco->setGeometry(QRect(10, 60, 317, 121));
+        tabela_banco->setGeometry(QRect(10, 90, 317, 121));
         tabela_banco->setEditTriggers(QAbstractItemView::NoEditTriggers);
         tabela_banco->setSelectionMode(QAbstractItemView::SingleSelection);
         tabela_banco->setSelectionBehavior(QAbstractItemView::SelectRows);
@@ -154,16 +156,16 @@ public:
         QTableWidgetItem *__qtablewidgetitem8 = new QTableWidgetItem();
         tabela_transacao->setHorizontalHeaderItem(5, __qtablewidgetitem8);
         tabela_transacao->setObjectName("tabela_transacao");
-        tabela_transacao->setGeometry(QRect(10, 190, 621, 171));
+        tabela_transacao->setGeometry(QRect(10, 220, 621, 171));
         tabela_transacao->setEditTriggers(QAbstractItemView::NoEditTriggers);
         tabela_transacao->setSelectionMode(QAbstractItemView::SingleSelection);
         tabela_transacao->setSelectionBehavior(QAbstractItemView::SelectRows);
         btn_sair = new QPushButton(centralwidget);
         btn_sair->setObjectName("btn_sair");
-        btn_sair->setGeometry(QRect(540, 10, 80, 24));
+        btn_sair->setGeometry(QRect(550, 10, 80, 24));
         layoutWidget = new QWidget(centralwidget);
         layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(340, 120, 281, 61));
+        layoutWidget->setGeometry(QRect(340, 150, 281, 61));
         verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -210,7 +212,7 @@ public:
 
         layoutWidget_2 = new QWidget(centralwidget);
         layoutWidget_2->setObjectName("layoutWidget_2");
-        layoutWidget_2->setGeometry(QRect(340, 50, 281, 61));
+        layoutWidget_2->setGeometry(QRect(340, 60, 281, 61));
         verticalLayout_4 = new QVBoxLayout(layoutWidget_2);
         verticalLayout_4->setObjectName("verticalLayout_4");
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -249,6 +251,12 @@ public:
 
         verticalLayout_4->addLayout(horizontalLayout_8);
 
+        label_9 = new QLabel(centralwidget);
+        label_9->setObjectName("label_9");
+        label_9->setGeometry(QRect(340, 125, 161, 21));
+        label_10 = new QLabel(centralwidget);
+        label_10->setObjectName("label_10");
+        label_10->setGeometry(QRect(340, 35, 181, 21));
         UsuarioWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(UsuarioWindow);
         menubar->setObjectName("menubar");
@@ -309,10 +317,10 @@ public:
         actionExcluir_objetivo->setText(QCoreApplication::translate("UsuarioWindow", "Excluir objetivo receita", nullptr));
         actionVisualizar_notifica_es->setText(QCoreApplication::translate("UsuarioWindow", "Visualizar notifica\303\247\303\265es", nullptr));
         actionExcluir_objetivo_despesa->setText(QCoreApplication::translate("UsuarioWindow", "Excluir objetivo despesa", nullptr));
-        label_saldo_total->setText(QCoreApplication::translate("UsuarioWindow", "Saldo total:", nullptr));
+        label_saldo_total->setText(QCoreApplication::translate("UsuarioWindow", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:700;\">Saldo total:</span></p></body></html>", nullptr));
         btn_nova_despesa->setText(QCoreApplication::translate("UsuarioWindow", "Nova despesa", nullptr));
         btn_nova_receira->setText(QCoreApplication::translate("UsuarioWindow", "Nova receita", nullptr));
-        label_saldo_total_numero->setText(QCoreApplication::translate("UsuarioWindow", "0", nullptr));
+        label_saldo_total_numero->setText(QCoreApplication::translate("UsuarioWindow", "<html><head/><body><p>0</p></body></html>", nullptr));
         btn_atualizar->setText(QCoreApplication::translate("UsuarioWindow", "Atualizar", nullptr));
         QTableWidgetItem *___qtablewidgetitem = tabela_banco->horizontalHeaderItem(0);
         ___qtablewidgetitem->setText(QCoreApplication::translate("UsuarioWindow", "Nome", nullptr));
@@ -339,6 +347,8 @@ public:
         btn_alterar_4->setText(QCoreApplication::translate("UsuarioWindow", "Alterar", nullptr));
         label_7->setText(QCoreApplication::translate("UsuarioWindow", "Objetivo:", nullptr));
         label_8->setText(QCoreApplication::translate("UsuarioWindow", "Progresso:", nullptr));
+        label_9->setText(QCoreApplication::translate("UsuarioWindow", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:700;\">Objetivos de receita</span></p></body></html>", nullptr));
+        label_10->setText(QCoreApplication::translate("UsuarioWindow", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:700;\">Objetivos de despesa</span></p></body></html>", nullptr));
         menuUsu_rio->setTitle(QCoreApplication::translate("UsuarioWindow", "Usu\303\241rio", nullptr));
         menuConta->setTitle(QCoreApplication::translate("UsuarioWindow", "Conta", nullptr));
         menuConta_Compartilhada->setTitle(QCoreApplication::translate("UsuarioWindow", "Conta Compartilhada", nullptr));

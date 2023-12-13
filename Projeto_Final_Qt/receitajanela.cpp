@@ -44,8 +44,8 @@ void ReceitaJanela::on_btn_adicionar_clicked()
 
     for(int i=0;i<_usuario->get_contas().size();i++){
         if(_usuario->get_contas()[i].get_nome()==conta.toStdString()){
-            _usuario->get_contas()[i].set_saldo(valor.toInt());
-            //_usuario->get_contas()[i].set_saldo(receita.realizar_transacao()); //opcao alternativa
+            //_usuario->get_contas()[i].set_saldo(valor.toInt());
+            _usuario->get_contas()[i].set_saldo(receita.realizar_transacao()); //opcao alternativa
             //_usuario->get_contas()[i].transacoes.push_back(transacao);
             _usuario->get_contas()[i].transacoes.push_back(receita);
             if(Funcionalidade::algumaStringVazia(informacoes, 5)){

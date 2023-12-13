@@ -21,20 +21,20 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>40</y>
+      <y>60</y>
       <width>101</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>Saldo total:</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Saldo total:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_nova_despesa">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>380</y>
+      <y>400</y>
       <width>80</width>
       <height>24</height>
      </rect>
@@ -46,8 +46,8 @@
    <widget class="QPushButton" name="btn_nova_receira">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>380</y>
+      <x>550</x>
+      <y>400</y>
       <width>80</width>
       <height>24</height>
      </rect>
@@ -59,14 +59,14 @@
    <widget class="QLabel" name="label_saldo_total_numero">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>40</y>
-      <width>71</width>
-      <height>20</height>
+      <x>110</x>
+      <y>59</y>
+      <width>171</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>0</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_atualizar">
@@ -89,7 +89,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>60</y>
+      <y>90</y>
       <width>317</width>
       <height>121</height>
      </rect>
@@ -126,7 +126,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>190</y>
+      <y>220</y>
       <width>621</width>
       <height>171</height>
      </rect>
@@ -174,7 +174,7 @@
    <widget class="QPushButton" name="btn_sair">
     <property name="geometry">
      <rect>
-      <x>540</x>
+      <x>550</x>
       <y>10</y>
       <width>80</width>
       <height>24</height>
@@ -188,7 +188,7 @@
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>120</y>
+      <y>150</y>
       <width>281</width>
       <height>61</height>
      </rect>
@@ -248,7 +248,7 @@
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>50</y>
+      <y>60</y>
       <width>281</width>
       <height>61</height>
      </rect>
@@ -303,6 +303,32 @@
       </layout>
      </item>
     </layout>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>125</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Objetivos de receita&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>35</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Objetivos de despesa&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

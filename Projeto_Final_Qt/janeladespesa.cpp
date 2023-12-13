@@ -37,14 +37,15 @@ void JanelaDespesa::on_btn_adicionar_clicked()
     std::string informacoes[5] = {valor.toStdString(), data.toStdString(), descricao.toStdString(), conta.toStdString(),
                                   categoria.toStdString()};
 
-    Despesa despesa(categoria.toStdString(), data.toStdString(), (-1)*valor.toInt(), descricao.toStdString());
+    Despesa despesa(categoria.toStdString(), data.toStdString(),valor.toInt(), descricao.toStdString());
 
     //Transacao transacao(categoria.toStdString(), data.toStdString(), (-1)*valor.toInt(), descricao.toStdString());
 
     for(int i=0;i<_usuario->get_contas().size();i++){
         if(_usuario->get_contas()[i].get_nome()==conta.toStdString()){
-            _usuario->get_contas()[i].set_saldo((-1)*valor.toInt());
+            //_usuario->get_contas()[i].set_saldo((-1)*valor.toInt());
             _usuario->get_contas()[i].set_saldo(despesa.realizar_transacao()); //opcao alternativa
+            qDebug() << despesa.realizar_transacao();
             //_usuario->get_contas()[i].transacoes.push_back(transacao);
             _usuario->get_contas()[i].transacoes.push_back(despesa);
             if(Funcionalidade::algumaStringVazia(informacoes, 5)){

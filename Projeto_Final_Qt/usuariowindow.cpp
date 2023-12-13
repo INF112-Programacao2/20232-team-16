@@ -35,10 +35,12 @@ void UsuarioWindow::on_btn_atualizar_clicked()
     }
     else{
         int total = _usuario->saldo_total();
-        int totaldec = total%10;
-        int totalun = total/10;
-        QString total_str = QString::number(totalun, 10) + "." + QString::number(totaldec, 10);
-        ui->label_saldo_total_numero->setText(total_str);
+        QString total_total = QString::number(total,10);
+        //int totaldec = total%10;
+        //int totalun = total/10;
+        //QString total_str = QString::number(totalun, 10) + "." + QString::number(totaldec, 10);
+        //ui->label_saldo_total_numero->setText(total_str);
+        ui->label_saldo_total_numero->setText(total_total);
     }
 
     //ATUALIZA TABELA CONTAS
@@ -148,7 +150,7 @@ void UsuarioWindow::on_btn_atualizar_clicked()
             for(int j=0;j<_usuario->get_contas()[i].transacoes.size();j++){
                 for(int k=0;k<_usuario->get_objetivos_desp().size();k++){
                     if(_usuario->get_contas()[i].transacoes[j].get_categoria()==_usuario->get_objetivos_desp()[k].get_categoria()){
-                        _usuario->get_objetivos_desp()[k].alterar_progresso(_usuario->get_contas()[i].transacoes[j].get_valor()*(-1));
+                        _usuario->get_objetivos_desp()[k].alterar_progresso(_usuario->get_contas()[i].transacoes[j].get_valor());
                     }
                 }
 
@@ -335,7 +337,8 @@ void UsuarioWindow::on_btn_sair_clicked()
 void UsuarioWindow::on_btn_alterar_clicked()
 {
     if(_usuario->get_objetivos().size()==0){
-            return;
+        ui->progressBar_objetivo->setValue(0);
+        return;
     }
     else{
         obj++;
@@ -359,6 +362,7 @@ void UsuarioWindow::on_btn_alterar_clicked()
 void UsuarioWindow::on_btn_alterar_4_clicked() //OBJETIVO IF
 {
     if(_usuario->get_objetivos_desp().size()==0){
+        ui->progressBar_objetivo_4->setValue(0);
         return;
     }
     else{
