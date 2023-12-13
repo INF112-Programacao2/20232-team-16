@@ -15,7 +15,7 @@ Objetivos Financeiros: Estabeleça metas financeiras e acompanhe seu progresso p
 
 Registo de várias contas: O programa possibilita o registro de várias contas bancárias simultaneamente, possibilitanto ainda o registro de transações de todas as contas registradas.
 
-----------Como Iniciar----------
+----------Como Iniciar (Opção 1)----------
 Baixe o instalador do Qt creator, disponível em: https://www.qt.io/download-qt-installer-oss?hsCtaTracking=99d9dd4f-5681-48d2-b096-470725510d34%7C074ddad0-fdef-4e53-8aa8-5e8a876d6ab4
 
 Crie uma conta e instale o programa.
@@ -31,3 +31,15 @@ Clique em open "file or project" e selecione "CMakeList.txt" em Projeto_Final_Qt
 Pressione o botão "Run".
 
 Programa aberto.
+
+----------Como Iniciar (Opção 2)----------
+Entre na pasta Instalador
+
+Abra o arquivo
+
+Realize a instalação
+
+Abra a pasta onde foi feita a instalação
+
+Execute o arquivo .exe
+------------------------------------------
