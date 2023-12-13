@@ -26,6 +26,8 @@ Clone o Repositório
 
 Abra o Qt Creator e inicie um projeto a partir do repositório clonado.
 
+Clique em open "file or project" e selecione "CMakeList.txt" em Projeto_Final_Qt
+
 Pressione o botão "Run".
 
 Programa aberto.

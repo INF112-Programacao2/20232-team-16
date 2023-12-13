@@ -398,4 +398,3 @@ void UsuarioWindow::on_actionExcluir_objetivo_despesa_triggered()
 }
 
 //BOTAO EXCLUIR TRANSACAO
-

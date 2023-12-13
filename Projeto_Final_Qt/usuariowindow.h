@@ -36,8 +36,6 @@ public:
     void receber_usuario(Usuario *usuario);
 
 private slots:
-    void on_label_saldo_total_numero_linkActivated(const QString &link);
-
     void on_btn_atualizar_clicked();
 
     void on_actionInforma_es_triggered();
@@ -62,15 +60,7 @@ private slots:
 
     void on_btn_sair_clicked();
 
-    void on_comboBox_objetivo_currentIndexChanged(int index);
-
-    void on_comboBox_objetivo_activated(int index);
-
-    void on_comboBox_objetivo_currentTextChanged(const QString &arg1);
-
     void on_btn_alterar_clicked();
-
-    void on_btn_alterar_3_clicked();
 
     void on_btn_alterar_4_clicked();
 

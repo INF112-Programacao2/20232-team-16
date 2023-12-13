@@ -18,8 +18,6 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_2_clicked();
-
     void on_Bt_cadastro_clicked();
 
     void on_Bt_login_clicked();
